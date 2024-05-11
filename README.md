@@ -57,8 +57,11 @@ Project is set up using Poetry, to run it locally follow these steps:
     ```
     poetry shell
     ```
-
-6. Now you can use the path-reducer package in your local environment.
+   
+6. Tests are included in the tests directory. You can run the tests using the following command:
+    ```
+    python test.py
+    ```
 
 ## License
 

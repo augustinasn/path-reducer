@@ -1,5 +1,5 @@
 import unittest
-from path_reducer.path_reducer import PathReducer
+from path_reducer import PathReducer
 
 
 class TestPathReducer(unittest.TestCase):
