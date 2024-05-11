@@ -1,10 +1,10 @@
-# Path Reducer
+# path-reducer
 
-The Path Reducer is a Python package that simplifies a list of directions by removing opposite directions that cancel each other out.
+path-reducer is a Python package that simplifies a list of directions by removing opposite directions that cancel each other out.
 
 ## Installation
 
-You can install the Path Reducer package using pip:
+Package is published on PyPi, you can install it using pip:
 
 ```
 pip install path-reducer
@@ -24,14 +24,14 @@ optimized_directions = path_reducer.reduce_path(directions)
 print(optimized_directions)  # Output: ["WEST"]
 ```
 
-## Local Setup
+## Local development
 
-To set up the project locally using Poetry, follow these steps:
+Project is set up using Poetry, to run it locally follow these steps:
 
 1. Clone this repository to your local machine:
 
     ```
-    git clone https://github.com/your-username/path-reducer.git
+    git clone https://github.com/augustinasn/path-reducer.git
     ```
 
 2. Navigate to the project directory:
@@ -58,4 +58,8 @@ To set up the project locally using Poetry, follow these steps:
     poetry shell
     ```
 
-6. Now you can use the Path Reducer package in your local environment.
+6. Now you can use the path-reducer package in your local environment.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENCE) file for details.
