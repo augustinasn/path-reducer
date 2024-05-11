@@ -4,7 +4,7 @@ path-reducer is a Python package that simplifies a list of directions by removin
 
 ## Installation
 
-Package is published on PyPi, you can install it using pip:
+Package is published on [PyPI](https://pypi.org/project/path-reducer/), you can install it using pip:
 
 ```
 pip install path-reducer
