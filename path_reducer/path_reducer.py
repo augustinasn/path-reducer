@@ -22,6 +22,13 @@ class PathReducer:
         Returns:
             List[str]: The optimized set of instructions.
         """
+        if not isinstance(ls, list):
+            raise ValueError("Input must be a list")
+
+        valid_directions = {"NORTH", "SOUTH", "EAST", "WEST"}
+        for direction in ls:
+            if direction.upper() not in valid_directions:
+                raise ValueError(f"Invalid direction: {direction}")
 
         stack = []
         for direction in ls:
